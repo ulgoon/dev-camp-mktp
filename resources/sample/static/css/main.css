@@ -115,6 +115,12 @@ a:hover {
   font-size: 28px;
   color: #e74c3c;
 }
+
+/*Shop*/
+#shop {
+  background: #f1f1f1;
+}
+
 /*Portfolio*/
 #portfolio {
   background: #f1f1f1;

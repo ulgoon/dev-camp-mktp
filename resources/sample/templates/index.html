@@ -2,6 +2,15 @@
     <html lang="en">
       <head>
         <!-- Google Tag Manager 1st snippet here! -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5PD9L9D');</script>
+<!-- End Google Tag Manager -->
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>programming for PM/Marketer | Fastcampus</title>
@@ -40,6 +49,11 @@
     <body data-spy="scroll" data-offset="20" data-target="#navbar">
     <!-- Google Tag Manager 2nd snippet here! -->
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PD9L9D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
     <!-- Nav Menu Section -->
     <div class="logo-menu">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="50">
@@ -52,7 +66,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand gtm-link-mainlogo" href="#home"><i class="fa fa-briefcase"></i> Sample Landing</a>
+          <a class="navbar-brand gtm-link-mainlogo" href="/"><i class="fa fa-briefcase"></i> Sample Landing</a>
         </div>
 
         <div class="collapse navbar-collapse" id="navbar">
@@ -61,6 +75,7 @@
                             <li><a href="#services"><i class="fa fa-cogs"></i> Services</a></li>
                             <li><a href="#portfolio"><i class="fa fa-flask"></i> Portfolio</a></li>
                             <li><a href="#clients"><i class="fa fa-puzzle-piece"></i> Clients</a></li>
+                            <li><a href="#shop"><i class="fa fa-shopping-cart"></i> Shop</a></li>
                             <li><a href="#about"><i class="fa fa-info"></i> About</a></li>
                             <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
                             </ul>
@@ -243,7 +258,62 @@
     </section>
 <!-- Client Section End -->
 
+<!-- Shop Section -->
 
+    <section id="shop">
+    <div class="container">
+    <div class="row">
+    <h1 class="title">shop</h1>
+    <h2 class="subtitle">Add to cart Any product you want!</h2>
+
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="thumbnail" id="12341234">
+     <img src="{{ url_for('static', filename='img/portfolio/img1.jpg') }}">
+     <p class="gtm-12341234-name" style="text-align:center;">Smart Phone</p>
+     <p class="gtm-12341234-local" style="text-align:center;">California, USA</p>
+     <p class="gtm-12341234-price" style="text-align:center;">$ 400</p>
+     <div style="display:table;margin: 0 auto;">
+         <a href="/orderinfo" onclick="dataLayer.push({'productId':12341234, 'product-price':400})"><button class="btn gtm-add-to-cart">Add to Cart</button></a>
+         <a href="/success" onclick="dataLayer.push({'productId':12341234, 'product-price':400})"><button class="btn gtm-buy-now">Buy Now!</button></a>
+     </div>
+    </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="thumbnail" id="56785678">
+     <img src="{{ url_for('static', filename='img/portfolio/img2.jpg') }}">
+     <p class="gtm-56785678-name" style="text-align:center;">Pizza</p>
+     <p class="gtm-56785678-local" style="text-align:center;">Napoli, Italia</p>
+     <p class="gtm-56785678-price" style="text-align:center;">$ 13</p>
+     <div style="display:table;margin: 0 auto;">
+      <a href="/orderinfo" onclick="dataLayer.push({'productId':56785678, 'product-price':13})"><button class="btn gtm-add-to-cart">Add to Cart</button></a>
+         <a href="/success" onclick="dataLayer.push({'productId':56785678, 'product-price':13})">
+     </div>
+    </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="thumbnail" id="90901212">
+     <img src="{{ url_for('static', filename='img/portfolio/img3.jpg') }}">
+     <p class="gtm-90901212-name" style="text-align:center;">Cherry Blossom</p>
+     <p class="gtm-90901212-local" style="text-align:center;">Tokyo, Japan</p>
+     <p class="gtm-90901212-price" style="text-align:center;">$ 40</p>
+     <div style="display:table;margin: 0 auto;">
+      <a href="/orderinfo" onclick="dataLayer.push({'productId':90129012, 'product-price':40})"><button class="btn gtm-add-to-cart">Add to Cart</button></a>
+         <a href="/success" onclick="dataLayer.push({'productId':90129012, 'product-price':40})"><button class="btn gtm-buy-now">Buy Now!</button></a>
+     </div>
+    </div>
+    </div>
+
+
+
+
+      
+    </div>
+    </div>
+    </section>
+<!-- Shop Section End -->
 
 <!-- About Section -->
 
