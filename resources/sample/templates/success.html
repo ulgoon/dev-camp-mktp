@@ -1,0 +1,216 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <!-- Google Tag Manager 1st snippet here! -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5PD9L9D');</script>
+<!-- End Google Tag Manager -->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>programming for PM/Marketer | Fastcampus</title>
+
+        
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        
+        <!-- Main Style -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+
+        <!-- Responsive Style -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/responsive.css') }}">
+
+        <!--Icon Fonts-->
+        <link rel="stylesheet" media="screen" href="{{ url_for('static', filename='fonts/font-awesome/font-awesome.min.css') }}" />
+
+
+        <!-- Extras -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='extras/animate.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='extras/lightbox.css') }}">
+
+
+        <!-- jQuery Load -->
+        <script src="{{ url_for('static', filename='js/jquery-min.js') }}"></script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+      </head>
+
+    <body data-spy="scroll" data-offset="20" data-target="#navbar">
+    <!-- Google Tag Manager 2nd snippet here! -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PD9L9D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <!-- Nav Menu Section -->
+    <div class="logo-menu">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="50">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header col-md-3">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand gtm-link-mainlogo" href="/"><i class="fa fa-briefcase"></i> Sample Landing</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav col-md-9 pull-right">
+                            <li class="active"><a href="#hero-area"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="#services"><i class="fa fa-cogs"></i> Services</a></li>
+                            <li><a href="#portfolio"><i class="fa fa-flask"></i> Portfolio</a></li>
+                            <li><a href="#clients"><i class="fa fa-puzzle-piece"></i> Clients</a></li>
+                            <li><a href="#shop"><i class="fa fa-shopping-cart"></i> Shop</a></li>
+                            <li><a href="#about"><i class="fa fa-info"></i> About</a></li>
+                            <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+                            </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+<!-- Nav Menu Section End -->
+
+<!-- Hero Area Section -->
+
+<section id="hero-area">
+<div class="container">
+    <div class="row">
+<div class="col-md-12">
+        <h1 class="title">Sample Landing Page for GTM Practice</h1>
+        <h2 class="subtitle">Start your Business or Personal site wigh GTM right now!</h2>
+
+        <img class="col-md-6 col-sm-6 col-xs-12 animated fadeInLeft" src="{{ url_for('static', filename='img/hero/macbook.png') }}" alt="">
+
+        <div class="col-md-6 col-sm-6 col-xs-12 animated fadeInRight delay-0-5">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        <a href="#" class="btn btn-common btn-lg gtm-btn-cta-download">Download Now!</a>
+        <a href="#" class="btn btn-primary btn-lg gtm-btn-cta-learnmore">Learn More</a>
+        </div>
+
+</div>
+
+    </div>
+</div>
+</section>
+
+<!-- Hero Area Section End-->
+
+
+
+<!-- Service Section -->
+
+<section id="services">
+<div class="container text-center">
+<div class="row">
+<h1 class="title">Thank you!</h1>
+<h2 class="subtitle">{{ msg }}</h2>
+
+</div>
+</div>
+ </section>
+<!-- Service Section End -->
+
+
+<!-- Conatct Section -->
+    <section id="contact">
+    <div class="container text-center">
+    <div class="row">
+    <h1 class="title">Contact us</h1>
+
+    <h2 class="subtitle">Lorem Ipsum is simply dummy text</h2>
+
+
+    <form role="form" class="contact-form" method="post">
+    <div class="col-md-6 wow fadeInLeft" data-wow-delay=".5s">
+    <div class="form-group">
+    <div class="controls">
+    <input type="text" class="form-control" placeholder="Name" name="name">
+    </div>
+    </div>
+    <div class="form-group">
+    <div class="controls">
+    <input type="email" class="form-control email" placeholder="Email" name="email">
+    </div>
+    </div>
+    <div class="form-group">
+    <div class="controls">
+    <input type="text" class="form-control requiredField" placeholder="Subject" name="subject">
+    </div>
+    </div>
+
+    <div class="form-group">
+
+    <div class="controls">
+    <textarea rows="7" class="form-control" placeholder="Message" name="message"></textarea>
+    </div>
+    </div>
+    <button type="submit" id="submit" class="btn btn-lg btn-common gtm-btn-submit">Send</button><div id="success" style="color:#34495e;"></div>
+
+    </div>
+    </form>
+
+    <div class="col-md-6 wow fadeInRight">
+    <div class="social-links">
+    <a class="social" href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+    <a class="social" href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+    <a class="social" href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+    <a class="social" href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+	</div>
+<div class="contact-info">
+    <p><i class="fa fa-map-marker"></i> Seoul, South Korea</p>
+     <p><i class="fa fa-envelope"></i> me@ulgoon.com</p>
+</div>
+
+    <p>
+    A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit.<br>
+    </p>
+    
+    </div>
+
+    </div>
+    </div>
+    </section>
+
+<!-- Conatct Section End-->
+
+
+    <div id="copyright">
+    <div class="container">
+    <div class="col-md-10"><p>© Corporal 2014 All right reserved. Design & Developed by <a href="http://graygrids.com">GrayGrids</a></p></div>
+    <div class="col-md-2">
+        <span class="to-top pull-right"><a href="#hero-area"><i class="fa fa-angle-up fa-2x"></i></a></span>
+        </div>
+    </div>
+    </div>
+<!-- Copyright Section End-->
+
+        <!-- Bootstrap JS -->
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+            <!-- Smooth Scroll -->
+                    <!-- Smooth Scroll -->
+        <script src="{{ url_for('static', filename='js/smooth-scroll.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/lightbox.min.js') }}"></script>
+
+        <!-- All JS plugin Triggers -->
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+
+
+    </body>
+    </html>
