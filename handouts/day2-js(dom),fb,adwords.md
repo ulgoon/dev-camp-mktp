@@ -54,8 +54,10 @@ Document Object Model
 
 ---
 ## HTML Document Object
-- document는 웹페이지의 모든 요소의 소유자 입니다.
-
+- window는 브라우저의 탭 또는 창을 의미합니다.
+- document는 웹페이지의 모든 요소의 소유자입니다.
+- element는 document의 하위 요소를 의미합니다.
+- attribute는 element의 속성을 의미합니다.
 ---
 ### Set document
 ```html
